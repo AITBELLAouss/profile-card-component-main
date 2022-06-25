@@ -1,0 +1,136 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    box-sizing: border-box;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+.top{
+    position: absolute;
+    margin-top: -650px;
+    margin-left: -350px;
+    z-index: -999999999999;
+}
+.bottom{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 650px;
+    z-index: -9999;
+
+}
+.card{
+    width: 350px;
+    height: auto;
+    background-color: white;
+    margin-left: 37%;
+    margin-top: 130px;
+    z-index: 1;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+
+}
+.cardbg{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.pic{
+    border-radius: 90px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    position: absolute;
+    margin-left: -230px;
+    margin-top: 85px;
+}
+
+article{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.infos{
+    margin-top: -10px;
+}
+.infos div{
+    display: inline-block;
+    text-align: center;
+    line-height: 50%;
+}
+
+.followers{
+    margin-left: -10px;
+}
+
+.likes{
+    margin-left: 50px;
+}
+
+.photos{
+    margin-left: 50px;
+}
+
+h1{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+h2{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+p{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    opacity: 0.5;
+}
+span{
+    opacity: 0.5;
+}
+.london{
+    margin-top: -10px;
+}
+hr{
+    margin-top: -5px;
+}
+
+.infos p{
+    font-size: 13.5px;
+}
+
+@media screen and (max-width : 770px) {
+
+    .card{
+        margin-left: 25%;
+    }
+    
+}
+
+@media screen and (max-width : 447px) {
+
+    .card{
+        margin-left: 7%;
+    }
+
+    .top{
+    
+        margin-top: -650px;
+        margin-left: -750px;
+        
+    }
+    .bottom{
+        
+        margin-top: 180px;
+        margin-left: 150px;
+        
+    
+    }
+    
+}
+
